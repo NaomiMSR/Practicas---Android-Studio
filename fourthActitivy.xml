@@ -1,0 +1,260 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CuartaActivity"
+    android:background="#9D6EE2">
+
+<!--    Primera Pregunta-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Preg1"
+        android:text="Si perro es a ladrido, entonces maullido es a "
+        android:textSize="32sp"
+        android:background="#8610C3"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        />
+
+<!--    Respuesta con tres opciones -->
+    <CheckBox
+        android:id="@+id/Sel1"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:background="#76F8FA"
+        android:text="Maullido"
+        android:textSize="30sp"
+        />
+
+    <CheckBox
+        android:id="@+id/Sel2"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="10dp"
+        android:background="#EB7373"
+        android:text="Ronquido"
+        android:textSize="30sp"
+        />
+
+    <CheckBox
+        android:id="@+id/Sel3"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFF480"
+        android:text="Graznido"
+        android:textSize="30sp"
+        />
+
+<!--    Segunda pregunta-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Preg2"
+        android:text="¿Qué color prefieres? "
+        android:textSize="32sp"
+        android:background="#8610C3"
+        android:layout_marginTop="260dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        />
+
+    <CheckBox
+        android:id="@+id/Sel4"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="315dp"
+        android:layout_marginRight="10dp"
+        android:background="#76F8FA"
+        android:text="Celeste"
+        android:textSize="30sp"
+        />
+
+    <CheckBox
+        android:id="@+id/Sel5"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="360dp"
+        android:layout_marginRight="10dp"
+        android:background="#EB7373"
+        android:text="Rosa"
+        android:textSize="30sp"
+        />
+
+    <CheckBox
+        android:id="@+id/Sel6"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFF480"
+        android:text="Amarillo"
+        android:textSize="30sp"
+        />
+
+<!--    Pregunta tres-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Preg3"
+        android:text="¿Qué genero prefieres? "
+        android:textSize="32sp"
+        android:background="#8610C3"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        />
+
+    <CheckBox
+        android:id="@+id/Sel7"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="10dp"
+        android:background="#76F8FA"
+        android:text="Rock"
+        android:textSize="30sp"
+        />
+
+    <CheckBox
+        android:id="@+id/Sel8"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="555dp"
+        android:layout_marginRight="10dp"
+        android:background="#EB7373"
+        android:text="Pop"
+        android:textSize="30sp"
+        />
+
+    <CheckBox
+        android:id="@+id/Sel9"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFF480"
+        android:text="Country"
+        android:textSize="30sp"
+        />
+
+<!--    Pregunta cuatro-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Preg4"
+        android:text="¿Cuál es tu app favorita? "
+        android:textSize="32sp"
+        android:background="#8610C3"
+        android:layout_marginTop="650dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        />
+
+    <CheckBox
+        android:id="@+id/Sel10"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="700dp"
+        android:layout_marginRight="10dp"
+        android:background="#76F8FA"
+        android:text="Tiktok"
+        android:textSize="30sp"
+        />
+
+    <CheckBox
+        android:id="@+id/Sel11"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="745dp"
+        android:layout_marginRight="10dp"
+        android:background="#EB7373"
+        android:text="Instagram"
+        android:textSize="30sp"
+        />
+
+    <CheckBox
+        android:id="@+id/Sel12"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="790dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFF480"
+        android:text="Facebook"
+        android:textSize="30sp"
+        />
+
+<!--    Pregunta cinco-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Preg5"
+        android:text="¿Cuál es tu película favorita? "
+        android:textSize="32sp"
+        android:background="#8610C3"
+        android:layout_marginTop="850dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="@color/white"
+        />
+
+    <CheckBox
+        android:id="@+id/Sel13"
+        android:layout_width="199dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="895dp"
+        android:layout_marginRight="10dp"
+        android:background="#76F8FA"
+        android:text="Cenicienta"
+        android:textSize="30sp"
+        />
+
+    <CheckBox
+        android:id="@+id/Sel14"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="940dp"
+        android:layout_marginRight="10dp"
+        android:background="#EB7373"
+        android:text="La Sirenita"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/Sel15"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="985dp"
+        android:layout_marginRight="10dp"
+        android:background="#FFF480"
+        android:text="Moana"
+        android:textSize="30sp"
+        />
+
+</FrameLayout>
