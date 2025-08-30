@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SextaActivity"
+    android:background="#C15858">
+
+<!--Tablero para juego en clase-->
+        <!-- Fila 1 - Rojo/amarillo -->
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view01"
+            android:text="A Mina"
+            android:textSize="20sp"
+            android:background="#FF0000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintVertical_bias="0.25"
+            app:layout_constraintHorizontal_bias="0.2"
+            />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view02"
+            android:background="#FF3300"
+            app:layout_constraintStart_toEndOf="@+id/view01"
+            app:layout_constraintTop_toTopOf="@+id/view01" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view03"
+            android:background="#FF6600"
+            app:layout_constraintStart_toEndOf="@+id/view02"
+            app:layout_constraintTop_toTopOf="@+id/view01" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view04"
+            android:text="Mina"
+            android:textSize="20sp"
+            android:background="#FF9900"
+            app:layout_constraintStart_toEndOf="@+id/view03"
+            app:layout_constraintTop_toTopOf="@+id/view01" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view05"
+            android:background="#FFCC00"
+            app:layout_constraintStart_toEndOf="@+id/view04"
+            app:layout_constraintTop_toTopOf="@+id/view01" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view06"
+            android:background="#FFFF00"
+            app:layout_constraintStart_toEndOf="@+id/view05"
+            app:layout_constraintTop_toTopOf="@+id/view01" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view07"
+            android:text="BARCO3"
+            android:textSize="20sp"
+            android:background="#CCFF00"
+            app:layout_constraintStart_toEndOf="@+id/view06"
+            app:layout_constraintTop_toTopOf="@+id/view01" />
+
+        <!-- Fila 2 - Verdes -->
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view08"
+            android:text="B"
+            android:textSize="30sp"
+            android:background="#99FF00"
+            app:layout_constraintStart_toStartOf="@+id/view01"
+            app:layout_constraintTop_toBottomOf="@+id/view01" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view09"
+            android:text="BARCO2"
+            android:textSize="20sp"
+            android:background="#66FF00"
+            app:layout_constraintStart_toEndOf="@+id/view08"
+            app:layout_constraintTop_toTopOf="@+id/view08" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view10"
+            android:text="BARCO2"
+            android:textSize="20sp"
+            android:background="#33FF00"
+            app:layout_constraintStart_toEndOf="@+id/view09"
+            app:layout_constraintTop_toTopOf="@+id/view08" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view11"
+            android:background="#00FF00"
+            app:layout_constraintStart_toEndOf="@+id/view10"
+            app:layout_constraintTop_toTopOf="@+id/view08" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view12"
+            android:text="Mina"
+            android:textSize="20sp"
+            android:background="#00FF33"
+            app:layout_constraintStart_toEndOf="@+id/view11"
+            app:layout_constraintTop_toTopOf="@+id/view08" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view13"
+            android:background="#00FF66"
+            app:layout_constraintStart_toEndOf="@+id/view12"
+            app:layout_constraintTop_toTopOf="@+id/view08" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view14"
+            android:background="#00FF99"
+            app:layout_constraintStart_toEndOf="@+id/view13"
+            app:layout_constraintTop_toTopOf="@+id/view08" />
+
+        <!-- Fila 3 - Azules -->
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view15"
+            android:text="C"
+            android:textSize="30sp"
+            android:background="#00FFCC"
+            app:layout_constraintStart_toStartOf="@+id/view08"
+            app:layout_constraintTop_toBottomOf="@+id/view08" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view16"
+            android:text="Mina"
+            android:textSize="20sp"
+            android:background="#00FFFF"
+            app:layout_constraintStart_toEndOf="@+id/view15"
+            app:layout_constraintTop_toTopOf="@+id/view15" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view17"
+            android:background="#00CCFF"
+            app:layout_constraintStart_toEndOf="@+id/view16"
+            app:layout_constraintTop_toTopOf="@+id/view15" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view18"
+            android:background="#0099FF"
+            app:layout_constraintStart_toEndOf="@+id/view17"
+            app:layout_constraintTop_toTopOf="@+id/view15" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view19"
+            android:background="#0066FF"
+            app:layout_constraintStart_toEndOf="@+id/view18"
+            app:layout_constraintTop_toTopOf="@+id/view15" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view20"
+            android:text="Mina"
+            android:textSize="20sp"
+            android:background="#0033FF"
+            app:layout_constraintStart_toEndOf="@+id/view19"
+            app:layout_constraintTop_toTopOf="@+id/view15" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view21"
+            android:background="#0000FF"
+            app:layout_constraintStart_toEndOf="@+id/view20"
+            app:layout_constraintTop_toTopOf="@+id/view15" />
+
+        <!-- Fila 4 - morado/rosa -->
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view22"
+            android:text="D"
+            android:textSize="30sp"
+            android:background="#3300FF"
+            app:layout_constraintStart_toStartOf="@+id/view15"
+            app:layout_constraintTop_toBottomOf="@+id/view15" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view23"
+            android:background="#6600FF"
+            app:layout_constraintStart_toEndOf="@+id/view22"
+            app:layout_constraintTop_toTopOf="@+id/view22" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view24"
+            android:text="Mina"
+            android:textSize="20sp"
+            android:background="#9900FF"
+            app:layout_constraintStart_toEndOf="@+id/view23"
+            app:layout_constraintTop_toTopOf="@+id/view22" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view25"
+            android:text="BARCO1"
+            android:textSize="20sp"
+            android:background="#CC00FF"
+            app:layout_constraintStart_toEndOf="@+id/view24"
+            app:layout_constraintTop_toTopOf="@+id/view22" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view26"
+            android:background="#FF00FF"
+            app:layout_constraintStart_toEndOf="@+id/view25"
+            app:layout_constraintTop_toTopOf="@+id/view22" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view27"
+            android:background="#FF00CC"
+            app:layout_constraintStart_toEndOf="@+id/view26"
+            app:layout_constraintTop_toTopOf="@+id/view22" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view28"
+            android:background="#FF0099"
+            app:layout_constraintStart_toEndOf="@+id/view27"
+            app:layout_constraintTop_toTopOf="@+id/view22" />
+
+        <!-- Fila 5 rosa/verde -->
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view29"
+            android:text="E Mina"
+            android:textSize="20sp"
+            android:background="#FF0066"
+            app:layout_constraintStart_toStartOf="@+id/view22"
+            app:layout_constraintTop_toBottomOf="@+id/view22" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view30"
+            android:background="#FF0033"
+            app:layout_constraintStart_toEndOf="@+id/view29"
+            app:layout_constraintTop_toTopOf="@+id/view29" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view31"
+            android:background="#800000"
+            app:layout_constraintStart_toEndOf="@+id/view30"
+            app:layout_constraintTop_toTopOf="@+id/view29" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view32"
+            android:text="BARCO1"
+            android:textSize="20sp"
+            android:background="#804000"
+            app:layout_constraintStart_toEndOf="@+id/view31"
+            app:layout_constraintTop_toTopOf="@+id/view29" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view33"
+            android:background="#808000"
+            app:layout_constraintStart_toEndOf="@+id/view32"
+            app:layout_constraintTop_toTopOf="@+id/view29" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view34"
+            android:background="#408000"
+            app:layout_constraintStart_toEndOf="@+id/view33"
+            app:layout_constraintTop_toTopOf="@+id/view29" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view35"
+            android:text="Mina"
+            android:textSize="20sp"
+            android:background="#008000"
+            app:layout_constraintStart_toEndOf="@+id/view34"
+            app:layout_constraintTop_toTopOf="@+id/view29" />
+
+        <!-- Fila 6 - aqua/magenta -->
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view36"
+            android:text="F"
+            android:textSize="30sp"
+            android:background="#008040"
+            app:layout_constraintStart_toStartOf="@+id/view29"
+            app:layout_constraintTop_toBottomOf="@+id/view29" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view37"
+            android:background="#008080"
+            app:layout_constraintStart_toEndOf="@+id/view36"
+            app:layout_constraintTop_toTopOf="@+id/view36" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view38"
+            android:background="#004080"
+            app:layout_constraintStart_toEndOf="@+id/view37"
+            app:layout_constraintTop_toTopOf="@+id/view36" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view39"
+            android:background="#000080"
+            app:layout_constraintStart_toEndOf="@+id/view38"
+            app:layout_constraintTop_toTopOf="@+id/view36" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view40"
+            android:background="#400080"
+            app:layout_constraintStart_toEndOf="@+id/view39"
+            app:layout_constraintTop_toTopOf="@+id/view36" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view41"
+            android:text="Mina"
+            android:textSize="20sp"
+            android:background="#800080"
+            app:layout_constraintStart_toEndOf="@+id/view40"
+            app:layout_constraintTop_toTopOf="@+id/view36" />
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view42"
+            android:background="#800040"
+            app:layout_constraintStart_toEndOf="@+id/view41"
+            app:layout_constraintTop_toTopOf="@+id/view36" />
+
+        <!-- Fila 7 grises -->
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view43"
+            android:text="G1"
+            android:textSize="30sp"
+            android:background="#FFFFFF"
+            app:layout_constraintStart_toStartOf="@+id/view36"
+            app:layout_constraintTop_toBottomOf="@+id/view36" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view44"
+            android:text="2"
+            android:textSize="30sp"
+            android:background="#DDDDDD"
+            app:layout_constraintStart_toEndOf="@+id/view43"
+            app:layout_constraintTop_toTopOf="@+id/view43" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view45"
+            android:text="3 Mina"
+            android:textSize="20sp"
+            android:background="#BBBBBB"
+            app:layout_constraintStart_toEndOf="@+id/view44"
+            app:layout_constraintTop_toTopOf="@+id/view43" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view46"
+            android:text="4"
+            android:textSize="30sp"
+            android:background="#999999"
+            app:layout_constraintStart_toEndOf="@+id/view45"
+            app:layout_constraintTop_toTopOf="@+id/view43" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view47"
+            android:text="5"
+            android:textSize="30sp"
+            android:background="#777777"
+            app:layout_constraintStart_toEndOf="@+id/view46"
+            app:layout_constraintTop_toTopOf="@+id/view43" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view48"
+            android:text="6"
+            android:textSize="30sp"
+            android:background="#555555"
+            app:layout_constraintStart_toEndOf="@+id/view47"
+            app:layout_constraintTop_toTopOf="@+id/view43" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/view49"
+            android:text="7"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:background="#000000"
+            app:layout_constraintStart_toEndOf="@+id/view48"
+            app:layout_constraintTop_toTopOf="@+id/view43" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
