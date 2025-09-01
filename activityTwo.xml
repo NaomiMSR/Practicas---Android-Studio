@@ -9,6 +9,8 @@
     android:background="#EC94ED"
     >
 
+    <!--Actividad en clase - patrón de preguntas y respuestas-->
+    <!--    Primera pregunta-->
     <TextView
         android:id="@+id/pre1"
         android:layout_width="wrap_content"
@@ -19,6 +21,7 @@
         android:textSize="24dp"
         />
 
+    <!--    Respuesta de dos opciones-->
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -49,6 +52,7 @@
 
     </RadioGroup>
 
+    <!--    Segunda pregunta-->
     <TextView
         android:id="@+id/pre2"
         android:layout_width="match_parent"
@@ -59,6 +63,7 @@
         android:background="#4F69DC"
         />
 
+    <!--    Respuesta de tres opciones-->
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -99,6 +104,7 @@
 
     </RadioGroup>
 
+    <!--    Tercera pregunta-->
     <TextView
         android:id="@+id/pre3"
         android:layout_width="match_parent"
@@ -109,6 +115,7 @@
         android:background="#DC4F77"
         />
 
+    <!--    Respuesta de dos opciones-->
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -139,6 +146,7 @@
 
     </RadioGroup>
 
+    <!--    Cuarta pregunta-->
     <TextView
         android:id="@+id/pre4"
         android:layout_width="match_parent"
@@ -149,6 +157,7 @@
         android:background="#DC724F"
         />
 
+    <!--    Respuesta de dos opciones-->
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -179,6 +188,7 @@
 
     </RadioGroup>
 
+    <!--    Quinta pregunta-->
     <TextView
         android:id="@+id/pre5"
         android:layout_width="match_parent"
@@ -189,6 +199,7 @@
         android:background="#8CDC4F"
         />
 
+    <!--    Respuesta de 3 opciones-->
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
