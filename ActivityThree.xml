@@ -8,6 +8,8 @@
     tools:context=".TerceraActivity"
     android:background="#2D8DBA">
 
+<!-- 18 preguntas y respuestas-->
+    <!--    Primera pregunta-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,6 +29,7 @@
         android:background="@color/white"
         />
 
+    <!--    Segunda pregunta-->
     <TextView
         android:id="@+id/pre1"
         android:layout_width="wrap_content"
@@ -67,6 +70,7 @@
 
     </RadioGroup>
 
+    <!--    Tercera pregunta-->
     <TextView
         android:id="@+id/pre2"
         android:layout_width="match_parent"
@@ -117,6 +121,7 @@
 
     </RadioGroup>
 
+    <!--    Cuarta pregunta-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -136,6 +141,7 @@
         android:background="@color/white"
         />
 
+    <!--    Quinta pregunta-->
     <TextView
         android:id="@+id/pre3"
         android:layout_width="wrap_content"
@@ -176,6 +182,7 @@
 
     </RadioGroup>
 
+    <!--  Sexta pregunta-->
     <TextView
         android:id="@+id/pre4"
         android:layout_width="match_parent"
@@ -226,6 +233,7 @@
 
     </RadioGroup>
 
+    <!--  Septima pregunta-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -245,6 +253,7 @@
         android:background="@color/white"
         />
 
+    <!--  Octava pregunta-->
     <TextView
         android:id="@+id/pre5"
         android:layout_width="wrap_content"
@@ -285,6 +294,7 @@
 
     </RadioGroup>
 
+    <!--  Novena pregunta-->
     <TextView
         android:id="@+id/pre6"
         android:layout_width="match_parent"
@@ -335,6 +345,7 @@
 
     </RadioGroup>
 
+    <!--  Decima pregunta-->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -354,6 +365,7 @@
         android:background="@color/white"
         />
 
+    <!--  Onceaba pregunta-->
     <TextView
         android:id="@+id/pre7"
         android:layout_width="wrap_content"
@@ -394,6 +406,7 @@
 
     </RadioGroup>
 
+    <!--  Doceaba pregunta-->
     <TextView
         android:id="@+id/pre8"
         android:layout_width="match_parent"
@@ -444,6 +457,7 @@
 
     </RadioGroup>
 
+    <!--  Pregunta 13 -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -463,6 +477,7 @@
         android:background="@color/white"
         />
 
+    <!--  Pregunta 14 -->
     <TextView
         android:id="@+id/pre9"
         android:layout_width="wrap_content"
@@ -503,6 +518,7 @@
 
     </RadioGroup>
 
+    <!--  Pregunta 15 -->
     <TextView
         android:id="@+id/pre10"
         android:layout_width="match_parent"
@@ -553,6 +569,7 @@
 
     </RadioGroup>
 
+    <!--  Pregunta 16 -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -572,6 +589,7 @@
         android:background="@color/white"
         />
 
+    <!--  Pregunta 17 -->
     <TextView
         android:id="@+id/pre11"
         android:layout_width="wrap_content"
@@ -612,6 +630,7 @@
 
     </RadioGroup>
 
+    <!--  Pregunta 18 -->
     <TextView
         android:id="@+id/pre12"
         android:layout_width="match_parent"
