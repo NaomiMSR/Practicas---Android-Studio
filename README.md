@@ -7,6 +7,7 @@ Objetivo
 Aprender y dominar los fundamentos del desarrollo Android mediante la implementación práctica de los componentes más utilizados en las aplicaciones móviles.
 
 Componentes Cubiertos:
+
 Elementos de Texto
   - TextView: Mostrar texto estático en pantalla
   - EditText: Campos de entrada de texto editable
