@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#F485FF">
+
+  <!--  Texto editable -->
+    <EditText
+        android:id="@+id/Cantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="248dp"
+        android:autofillHints=""
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Ingrese una cantidad"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="#000000"/>
+
+  <!--  Agrupación de botones -->
+    <LinearLayout
+        android:layout_width="353dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="244dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cantidad"
+        app:layout_constraintVertical_bias="0.322">
+
+      <!--  Botones-->
+        <Button
+            android:id="@+id/IncreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Incrementar"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="29dp"
+            tools:layout_editor_absoluteY="339dp" />
+
+        <Button
+            android:id="@+id/DismiButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disminuir"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="232dp"
+            tools:layout_editor_absoluteY="339dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
